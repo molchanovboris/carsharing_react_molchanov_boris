@@ -1,0 +1,2 @@
+(this.webpackJsonpcarsharing_react_molchanov_boris=this.webpackJsonpcarsharing_react_molchanov_boris||[]).push([[0],{17:function(c,n,r){"use strict";r.r(n);r(0);var t=r(14),e=r.n(t),a=r(15),s=r(1),o=(r(22),r(23),r(8));function i(){return Object(o.jsx)(a.a,{children:Object(o.jsx)(s.c,{children:Object(o.jsx)(s.a,{path:"/"})})})}var h=document.getElementById("root");e.a.render(Object(o.jsx)(i,{}),h)},23:function(c,n,r){}},[[17,1,2]]]);
+//# sourceMappingURL=main.743a376d.chunk.js.map

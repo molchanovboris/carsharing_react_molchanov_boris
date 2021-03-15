@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/carsharing_react_molchanov_boris/static/css/main.00d33ba6.chunk.css",
+    "main.js": "/carsharing_react_molchanov_boris/static/js/main.743a376d.chunk.js",
+    "main.js.map": "/carsharing_react_molchanov_boris/static/js/main.743a376d.chunk.js.map",
+    "runtime-main.js": "/carsharing_react_molchanov_boris/static/js/runtime-main.c8cd0fa7.js",
+    "runtime-main.js.map": "/carsharing_react_molchanov_boris/static/js/runtime-main.c8cd0fa7.js.map",
+    "static/css/2.98e7ac70.chunk.css": "/carsharing_react_molchanov_boris/static/css/2.98e7ac70.chunk.css",
+    "static/js/2.e0661feb.chunk.js": "/carsharing_react_molchanov_boris/static/js/2.e0661feb.chunk.js",
+    "static/js/2.e0661feb.chunk.js.map": "/carsharing_react_molchanov_boris/static/js/2.e0661feb.chunk.js.map",
+    "index.html": "/carsharing_react_molchanov_boris/index.html",
+    "static/css/2.98e7ac70.chunk.css.map": "/carsharing_react_molchanov_boris/static/css/2.98e7ac70.chunk.css.map",
+    "static/css/main.00d33ba6.chunk.css.map": "/carsharing_react_molchanov_boris/static/css/main.00d33ba6.chunk.css.map",
+    "static/js/2.e0661feb.chunk.js.LICENSE.txt": "/carsharing_react_molchanov_boris/static/js/2.e0661feb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c8cd0fa7.js",
+    "static/css/2.98e7ac70.chunk.css",
+    "static/js/2.e0661feb.chunk.js",
+    "static/css/main.00d33ba6.chunk.css",
+    "static/js/main.743a376d.chunk.js"
+  ]
+}
