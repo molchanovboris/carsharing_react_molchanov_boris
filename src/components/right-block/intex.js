@@ -13,7 +13,7 @@ import porsche from "../../assets/fonts/porsche.svg";
 import tesla from "../../assets/fonts/tesla.svg";
 import "./style.scss";
 
-const Example = (props) => {
+const Slider = (props) => {
   const [index, setIndex] = useState(0);
 
   const handleSelect = (selectedIndex) => {
@@ -74,4 +74,4 @@ const Example = (props) => {
   );
 };
 
-export default Example;
+export default Slider;
