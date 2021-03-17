@@ -1,0 +1,77 @@
+.carousel {
+  width: 50%;
+  height: 100vh;
+  .carousel-indicators {
+    li {
+      list-style: none;
+      width: 8px;
+      height: 8px;
+      margin: 0 3px;
+      background: #eee;
+      border-radius: 100%;
+      border: 0;
+      cursor: pointer;
+    }
+    li.active {
+      background: #0EC261;
+    }
+  }
+  .carousel-control-prev, .carousel-control-next {
+    width: 64px;
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+      background-image: url('../../assets/icons/next-icon.svg');
+    }
+    .carousel-control-prev-icon {
+      transform: rotate(180deg);
+    }
+  }
+  .carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover {
+    background-color: #0EC261;
+    opacity: 0.2;
+    .carousel-control-prev-icon {
+      opacity: 0.9;
+    }
+  }
+  .carousel-inner {
+    .carousel-item {
+      img {
+        height: 100vh;
+      }
+      .slider-gradient {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+      }
+      .carousel-caption {
+        top: 0;
+        bottom: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        .info-title {
+          margin-bottom: 8px;
+          font-family: "Roboto-Bold", sans-serif;
+          font-size: 48px;
+          color: #fff;
+        }
+        .info-sub-title {
+          margin-bottom: 32px;
+          font-family: "Roboto-Regular", sans-serif;
+          font-size: 24px;
+          color: #EEEEEE;
+        }
+        .info-button {
+          height: 48px;
+          width: 164px;
+          border-radius: 4px;
+          border: none;
+        }
+      }
+    }
+  }
+}
+
