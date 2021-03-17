@@ -1,23 +1,28 @@
 {
   "files": {
-    "main.css": "/carsharing_react_molchanov_boris/static/css/main.00d33ba6.chunk.css",
-    "main.js": "/carsharing_react_molchanov_boris/static/js/main.743a376d.chunk.js",
-    "main.js.map": "/carsharing_react_molchanov_boris/static/js/main.743a376d.chunk.js.map",
+    "main.css": "/carsharing_react_molchanov_boris/static/css/main.51a66453.chunk.css",
+    "main.js": "/carsharing_react_molchanov_boris/static/js/main.4934f131.chunk.js",
+    "main.js.map": "/carsharing_react_molchanov_boris/static/js/main.4934f131.chunk.js.map",
     "runtime-main.js": "/carsharing_react_molchanov_boris/static/js/runtime-main.c8cd0fa7.js",
     "runtime-main.js.map": "/carsharing_react_molchanov_boris/static/js/runtime-main.c8cd0fa7.js.map",
     "static/css/2.98e7ac70.chunk.css": "/carsharing_react_molchanov_boris/static/css/2.98e7ac70.chunk.css",
-    "static/js/2.e0661feb.chunk.js": "/carsharing_react_molchanov_boris/static/js/2.e0661feb.chunk.js",
-    "static/js/2.e0661feb.chunk.js.map": "/carsharing_react_molchanov_boris/static/js/2.e0661feb.chunk.js.map",
+    "static/js/2.28df58df.chunk.js": "/carsharing_react_molchanov_boris/static/js/2.28df58df.chunk.js",
+    "static/js/2.28df58df.chunk.js.map": "/carsharing_react_molchanov_boris/static/js/2.28df58df.chunk.js.map",
     "index.html": "/carsharing_react_molchanov_boris/index.html",
     "static/css/2.98e7ac70.chunk.css.map": "/carsharing_react_molchanov_boris/static/css/2.98e7ac70.chunk.css.map",
-    "static/css/main.00d33ba6.chunk.css.map": "/carsharing_react_molchanov_boris/static/css/main.00d33ba6.chunk.css.map",
-    "static/js/2.e0661feb.chunk.js.LICENSE.txt": "/carsharing_react_molchanov_boris/static/js/2.e0661feb.chunk.js.LICENSE.txt"
+    "static/css/main.51a66453.chunk.css.map": "/carsharing_react_molchanov_boris/static/css/main.51a66453.chunk.css.map",
+    "static/js/2.28df58df.chunk.js.LICENSE.txt": "/carsharing_react_molchanov_boris/static/js/2.28df58df.chunk.js.LICENSE.txt",
+    "static/media/ferrari.305dfb68.svg": "/carsharing_react_molchanov_boris/static/media/ferrari.305dfb68.svg",
+    "static/media/gtr.907b3806.svg": "/carsharing_react_molchanov_boris/static/media/gtr.907b3806.svg",
+    "static/media/style.scss": "/carsharing_react_molchanov_boris/static/media/next-icon.9d87137d.svg",
+    "static/media/porsche.ec883098.svg": "/carsharing_react_molchanov_boris/static/media/porsche.ec883098.svg",
+    "static/media/tesla.0cc9a69c.svg": "/carsharing_react_molchanov_boris/static/media/tesla.0cc9a69c.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.c8cd0fa7.js",
     "static/css/2.98e7ac70.chunk.css",
-    "static/js/2.e0661feb.chunk.js",
-    "static/css/main.00d33ba6.chunk.css",
-    "static/js/main.743a376d.chunk.js"
+    "static/js/2.28df58df.chunk.js",
+    "static/css/main.51a66453.chunk.css",
+    "static/js/main.4934f131.chunk.js"
   ]
 }
