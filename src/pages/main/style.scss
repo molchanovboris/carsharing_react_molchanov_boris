@@ -1,0 +1,9 @@
+.main {
+  display: flex;
+  .burger {
+    width: 64px;
+  }
+  .left-block {
+    width: calc(50% - 64px);
+  }
+}

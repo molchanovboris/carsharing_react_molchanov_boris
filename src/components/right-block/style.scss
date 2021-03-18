@@ -1,48 +1,52 @@
+@import "../../assets/styles/color.scss";
+
 .carousel {
   width: 50%;
   height: 100vh;
   .carousel-indicators {
+    margin-bottom: 32px;
     li {
-      list-style: none;
+      margin: 0 3px;
       width: 8px;
       height: 8px;
-      margin: 0 3px;
-      background: #eee;
       border-radius: 100%;
-      border: 0;
-      cursor: pointer;
+      border: none;
+      background: $white-color2;
     }
     li.active {
-      background: #0EC261;
+      background: $green-color;
     }
   }
-  .carousel-control-prev, .carousel-control-next {
+  .carousel-control-prev,
+  .carousel-control-next {
     width: 64px;
-    .carousel-control-next-icon, .carousel-control-prev-icon {
-      background-image: url('../../assets/icons/next-icon.svg');
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+      background-image: url("../../assets/icons/next-icon.svg");
     }
     .carousel-control-prev-icon {
       transform: rotate(180deg);
     }
   }
-  .carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover {
-    background-color: #0EC261;
+  .carousel-control-next:focus,
+  .carousel-control-next:hover,
+  .carousel-control-prev:focus,
+  .carousel-control-prev:hover {
+    background-color: $green-color;
     opacity: 0.2;
-    .carousel-control-prev-icon {
-      opacity: 0.9;
-    }
   }
   .carousel-inner {
-    .carousel-item {
-      img {
+    .slider {
+      .slider-image {
         height: 100vh;
+        width: 100%;
       }
       .slider-gradient {
+        top: 0;
+        left: 0;
         position: absolute;
         width: 100%;
         height: 100%;
-        top: 0;
-        left: 0;
         background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
       }
       .carousel-caption {
@@ -52,26 +56,30 @@
         flex-direction: column;
         justify-content: center;
         text-align: left;
-        .info-title {
+        .slider-title {
           margin-bottom: 8px;
-          font-family: "Roboto-Bold", sans-serif;
           font-size: 48px;
-          color: #fff;
+          font-weight: 500;
+          line-height: 47px;
+          color: $white-color1;
         }
-        .info-sub-title {
+        .slider-sub-title {
           margin-bottom: 32px;
-          font-family: "Roboto-Regular", sans-serif;
           font-size: 24px;
-          color: #EEEEEE;
+          font-weight: 300;
+          line-height: 90%;
+          color: $white-color2;
         }
-        .info-button {
+        .slider-button {
           height: 48px;
           width: 164px;
           border-radius: 4px;
           border: none;
+          font-size: 18px;
+          line-height: 21px;
+          color: $white-color2;
         }
       }
     }
   }
 }
-
