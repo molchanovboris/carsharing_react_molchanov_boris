@@ -3,8 +3,18 @@
 .carousel {
   width: 50%;
   height: 100vh;
+
+  @media screen and (max-width: 1040px) {
+    width: 40%;
+  }
+
+  @media screen and (max-width: 780px) {
+    display: none !important;
+  }
+
   .carousel-indicators {
     margin-bottom: 32px;
+
     li {
       margin: 0 3px;
       width: 8px;
@@ -13,21 +23,26 @@
       border: none;
       background: $white-color2;
     }
+
     li.active {
       background: $green-color;
     }
   }
+
   .carousel-control-prev,
   .carousel-control-next {
     width: 64px;
+
     .carousel-control-next-icon,
     .carousel-control-prev-icon {
       background-image: url("../../assets/icons/next-icon.svg");
     }
+
     .carousel-control-prev-icon {
       transform: rotate(180deg);
     }
   }
+
   .carousel-control-next:focus,
   .carousel-control-next:hover,
   .carousel-control-prev:focus,
@@ -35,12 +50,14 @@
     background-color: $green-color;
     opacity: 0.2;
   }
+
   .carousel-inner {
     .slider {
       .slider-image {
         height: 100vh;
         width: 100%;
       }
+
       .slider-gradient {
         top: 0;
         left: 0;
@@ -49,6 +66,7 @@
         height: 100%;
         background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
       }
+
       .carousel-caption {
         top: 0;
         bottom: 100px;
@@ -56,6 +74,7 @@
         flex-direction: column;
         justify-content: center;
         text-align: left;
+
         .slider-title {
           margin-bottom: 8px;
           font-size: 48px;
@@ -63,6 +82,7 @@
           line-height: 47px;
           color: $white-color1;
         }
+
         .slider-sub-title {
           margin-bottom: 32px;
           font-size: 24px;
@@ -70,6 +90,7 @@
           line-height: 90%;
           color: $white-color2;
         }
+
         .slider-button {
           height: 48px;
           width: 164px;
