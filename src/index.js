@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
-import MainPage from "./pages/main";
+import MainPage from "./pages/MainPage";
 import "./style.css";
 
 function App() {

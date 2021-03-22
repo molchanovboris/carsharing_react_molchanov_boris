@@ -21,6 +21,18 @@
     height: 100vh;
   }
 
+  &__show-drawer.ant-btn {
+    display: none;
+
+    @media screen and (max-width: 450px) {
+      margin: 16px;
+      padding: 0;
+      display: flex;
+      border: none;
+      background-color: $white-color1;
+    }
+  }
+
   &__header,
   &__footer {
     display: flex;
@@ -60,24 +72,52 @@
     }
   }
 
-  &__body {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    justify-content: center;
+  &__footer {
+    font-family: "Roboto" sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 15px;
 
     @media screen and (max-width: 450px) {
-      margin-top: 34px;
-      justify-content: start;
-    }
-
-    div {
+      margin: 0;
+      padding: 16px;
       display: flex;
-      flex-direction: column;
+      flex-direction: column-reverse;
+      background-color: $black-color2;
+    }
+  }
 
-      @media screen and (max-width: 450px) {
-        margin-left: 16px;
-      }
+  &__watermark {
+    color: $grey-color;
+  }
+
+  &__number {
+    color: $black-color1;
+    @media screen and (max-width: 450px) {
+      margin-bottom: 8px;
+      color: $green-color;
+    }
+  }
+}
+
+.about-info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+
+  @media screen and (max-width: 450px) {
+    margin-top: 34px;
+    justify-content: start;
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+
+    @media screen and (max-width: 450px) {
+      margin-left: 16px;
     }
   }
   &__first-string,
@@ -94,13 +134,9 @@
     }
   }
 
-  &__first-string,
-  &____number {
-    color: $black-color1;
-  }
-
   &__first-string {
     margin-bottom: 4px;
+    color: $black-color1;
   }
 
   &__second-string {
@@ -127,14 +163,14 @@
     }
   }
 
-  &__third-string,
-  &__watermark {
+  &__third-string {
     color: $grey-color;
   }
 
-  &__button {
+  &__button.ant-btn {
     height: 48px;
     width: 250px;
+    color: $white-color1;
     background: linear-gradient(90deg, #0ec261 2.61%, #039f67 112.6%);
     background-blend-mode: darken;
     border-radius: 8px;
@@ -143,29 +179,6 @@
     @media screen and (max-width: 450px) {
       width: 100%;
       border-radius: 0px;
-    }
-  }
-
-  &__footer {
-    font-family: "Roboto" sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 13px;
-    line-height: 15px;
-
-    @media screen and (max-width: 450px) {
-      margin: 0;
-      padding: 16px;
-      display: flex;
-      flex-direction: column-reverse;
-      background-color: $black-color2;
-    }
-  }
-
-  &__number {
-    @media screen and (max-width: 450px) {
-      margin-bottom: 8px;
-      color: $green-color;
     }
   }
 }
