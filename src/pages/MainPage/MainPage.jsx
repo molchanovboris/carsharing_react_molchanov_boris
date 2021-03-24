@@ -3,12 +3,12 @@ import { withRouter } from "react-router-dom";
 import Slider from "../../components/Slider";
 import Info from "../../components/Info";
 import Sidebar from "../../components/Sidebar";
-import "./style.scss";
+import "./MainPage.scss";
 
 const MainPage = () => {
   const [visible, setVisible] = useState(false);
   const [index, setIndex] = useState(0);
-  const [language, setLanguage] = useState("Eng");
+  const [language, setLanguage] = useState("Рус");
 
   const showDrawer = () => {
     setVisible(true);
@@ -23,7 +23,7 @@ const MainPage = () => {
   };
 
   const onToggle = () => {
-    setLanguage(language === "Eng" ? "Rus" : "Eng");
+    setLanguage(language === "Рус" ? "Eng" : "Рус");
   };
 
   return (

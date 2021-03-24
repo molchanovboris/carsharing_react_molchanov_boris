@@ -1,7 +1,8 @@
 import { Button, Drawer } from "antd";
 import React from "react";
-import "./sidebar.scss";
+import "./Sidebar.scss";
 import menu_btn from "../../assets/icons/menu_btn.svg";
+import menu_btn_lg from "../../assets/icons/menu_btn_lg.svg";
 import close_btn from "../../assets/icons/close_btn.svg";
 import { NavLink } from "react-router-dom";
 import telegram from "../../assets/icons/telegram.svg";
@@ -20,18 +21,25 @@ const Sidebar = (props) => {
 
   return (
     <>
-    <div className="sidebar">
-      <button
-        type="primary"
-        onClick={showDrawer}
-        className="sidebar__show"
-      >
-        <img src={menu_btn} alt="type" />
-      </button>
-      <button onClick={onToggle} className="sidebar__language">
-        {language}
-      </button>
-    </div>
+      <div className="sidebar">
+        <button
+          type="primary"
+          onClick={showDrawer}
+          className="sidebar__show"
+        >
+          <img src={menu_btn} alt="type" />
+        </button>
+        <button
+          type="primary"
+          onClick={showDrawer}
+          className="sidebar__show-lg"
+        >
+          <img src={menu_btn_lg} alt="type" />
+        </button>
+        <button onClick={onToggle}    className="sidebar__language">
+          {language}
+        </button>
+      </div>
 
       <Drawer
         placement="left"
@@ -44,18 +52,20 @@ const Sidebar = (props) => {
           <img src={close_btn} alt="type" />
         </Button>
         <div className="drawer__block">
-          <NavLink to="/" className="drawer__link">
-            Парковка
-          </NavLink>
-          <NavLink to="/" className="drawer__link">
-            Страховка
-          </NavLink>
-          <NavLink to="/" className="drawer__link">
-            Бензин
-          </NavLink>
-          <NavLink to="/" className="drawer__link">
-            Обслуживание
-          </NavLink>
+          <div className="drawer__links">
+            <NavLink to="/" className="drawer__link">
+              Парковка
+            </NavLink>
+            <NavLink to="/" className="drawer__link">
+              Страховка
+            </NavLink>
+            <NavLink to="/" className="drawer__link">
+              Бензин
+            </NavLink>
+            <NavLink to="/" className="drawer__link">
+              Обслуживание
+            </NavLink>
+          </div>
           <div>
             <NavLink to="/" className="drawer__socials">
               <img src={telegram} alt="type" />
@@ -68,6 +78,9 @@ const Sidebar = (props) => {
             </NavLink>
           </div>
         </div>
+        <button onClick={onToggle} className="drawer__language">
+          {language}
+        </button>
       </Drawer>
       </>
   );

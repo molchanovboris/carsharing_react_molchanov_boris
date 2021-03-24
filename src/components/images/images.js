@@ -1,7 +1,7 @@
-import ferrari from "../../assets/fonts/ferrari.png";
-import gtr from "../../assets/fonts/gtr.png";
-import porsche from "../../assets/fonts/porsche.png";
-import tesla from "../../assets/fonts/tesla.png";
+import ferrari from "../../assets/backgrounds/ferrari.png";
+import gtr from "../../assets/backgrounds/gtr.png";
+import porsche from "../../assets/backgrounds/porsche.png";
+import tesla from "../../assets/backgrounds/tesla.png";
 
 export const images = [
   {

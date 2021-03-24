@@ -1,7 +1,7 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
-import "./slides.scss"
-import { images } from "../images";
+import "./Slides.scss"
+import { images } from "../images/images";
 
 const Slider = (props) => {
 
@@ -16,14 +16,14 @@ const Slider = (props) => {
         <div className="slider__gradient"></div>
         <img src={item.src} alt="type" className="slider__image" />
         <Carousel.Caption>
-          <h3 className="slider__title">{item.title}</h3>
-          <p className="slider__subtitle">{item.subTitle}</p>
-          <button
-            style={{ background: item.backgroundColor }}
-            className="slider__button"
-          >
-            Подробнее
-          </button>
+            <p className="slider__title">{item.title}</p>
+            <p className="slider__subtitle">{item.subTitle}</p>
+            <button
+              style={{ background: item.backgroundColor }}
+              className="slider__button"
+            >
+               Подробнее
+            </button>
         </Carousel.Caption>
       </Carousel.Item>
     );
