@@ -1,0 +1,31 @@
+{
+  "extends": [
+    "react-app",
+    "prettier"
+  ],
+  "rules": {
+    "jsx-quotes": [
+      1,
+      "prefer-double"
+    ]
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+        "jsx": true,
+        "templateStrings": true,
+        "superInFunctions": false,
+        "classes": true,
+        "modules": true
+    }
+  },
+  "plugins": [
+    "prettier"
+  ],
+  "settings": {
+    "import/resolver": {
+        "node": {
+            "extensions": [".js", ".jsx"]
+        }
+    }
+},
+}
