@@ -1,4 +1,4 @@
-import { Button, Drawer } from "antd";
+import { Drawer } from "antd";
 import React from "react";
 import "./Sidebar.scss";
 import menu_btn from "../../assets/icons/menu_btn.svg";
@@ -48,9 +48,9 @@ const Sidebar = (props) => {
         visible={visible}
         className="drawer"
       >
-        <Button className="drawer__close" onClick={onClose}>
+        <button className="drawer__close" onClick={onClose}>
           <img src={close_btn} alt="type" />
-        </Button>
+        </button>
         <div className="drawer__block">
           <div className="drawer__links">
             <NavLink to="/" className="drawer__link">
