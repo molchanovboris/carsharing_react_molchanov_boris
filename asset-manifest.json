@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/carsharing_react_molchanov_boris/static/css/main.30e30afb.chunk.css",
-    "main.js": "/carsharing_react_molchanov_boris/static/js/main.c10ae6ae.chunk.js",
-    "main.js.map": "/carsharing_react_molchanov_boris/static/js/main.c10ae6ae.chunk.js.map",
+    "main.css": "/carsharing_react_molchanov_boris/static/css/main.ed570d8f.chunk.css",
+    "main.js": "/carsharing_react_molchanov_boris/static/js/main.bbc0bd40.chunk.js",
+    "main.js.map": "/carsharing_react_molchanov_boris/static/js/main.bbc0bd40.chunk.js.map",
     "runtime-main.js": "/carsharing_react_molchanov_boris/static/js/runtime-main.c8cd0fa7.js",
     "runtime-main.js.map": "/carsharing_react_molchanov_boris/static/js/runtime-main.c8cd0fa7.js.map",
     "static/css/2.98e7ac70.chunk.css": "/carsharing_react_molchanov_boris/static/css/2.98e7ac70.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.c87d3190.chunk.js.map": "/carsharing_react_molchanov_boris/static/js/2.c87d3190.chunk.js.map",
     "index.html": "/carsharing_react_molchanov_boris/index.html",
     "static/css/2.98e7ac70.chunk.css.map": "/carsharing_react_molchanov_boris/static/css/2.98e7ac70.chunk.css.map",
-    "static/css/main.30e30afb.chunk.css.map": "/carsharing_react_molchanov_boris/static/css/main.30e30afb.chunk.css.map",
+    "static/css/main.ed570d8f.chunk.css.map": "/carsharing_react_molchanov_boris/static/css/main.ed570d8f.chunk.css.map",
     "static/js/2.c87d3190.chunk.js.LICENSE.txt": "/carsharing_react_molchanov_boris/static/js/2.c87d3190.chunk.js.LICENSE.txt",
     "static/media/close_btn.1d4598cc.svg": "/carsharing_react_molchanov_boris/static/media/close_btn.1d4598cc.svg",
     "static/media/facebook.01c0ca6a.svg": "/carsharing_react_molchanov_boris/static/media/facebook.01c0ca6a.svg",
@@ -30,7 +30,7 @@
     "static/js/runtime-main.c8cd0fa7.js",
     "static/css/2.98e7ac70.chunk.css",
     "static/js/2.c87d3190.chunk.js",
-    "static/css/main.30e30afb.chunk.css",
-    "static/js/main.c10ae6ae.chunk.js"
+    "static/css/main.ed570d8f.chunk.css",
+    "static/js/main.bbc0bd40.chunk.js"
   ]
 }
