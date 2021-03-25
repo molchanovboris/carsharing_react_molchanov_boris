@@ -1,0 +1,237 @@
+@import "../../styles/color.scss";
+
+.info {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 32px 64px;
+
+  @media screen and (max-width: 1040px) {
+    width: calc(60% - 64px);
+    padding: 32px 30px;
+  }
+
+  @media screen and (max-width: 780px) {
+    width: calc(100% - 86px);
+    padding: 30px 32px;
+  }
+
+  @media screen and (max-width: 450px) {
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+  }
+
+  &__show-drawer.ant-btn {
+    display: none;
+
+    @media screen and (max-width: 450px) {
+      position: absolute;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      border: none;
+      background-color: $white-color1;
+    }
+  }
+
+  &__header,
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+
+    @media screen and (max-width: 450px) {
+      margin: 16px;
+      text-align: end;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  &__name {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    color: $green-color;
+  }
+
+  &__city {
+    padding-top: 4px;
+    padding-right: 2px;
+
+    @media screen and (max-width: 1040px) {
+      padding-top: 6px;
+      padding-right: 3px;
+    }
+
+    @media screen and (max-width: 780px) {
+      padding-top: 5px;
+      padding-right: 1px;
+    }
+
+    @media screen and (max-width: 450px) {
+      padding-top: 3px;
+      padding-right: 0;
+    }
+    img {
+      margin-right: 7px;
+      align-items: center;
+    }
+    span {
+      font-family: "Roboto", sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      color: $grey-color;
+    }
+  }
+
+  &__footer {
+    padding-bottom: 1px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+
+    @media screen and (max-width: 780px) {
+      padding-bottom: 8px;
+    }
+
+    @media screen and (max-width: 450px) {
+      margin: 0;
+      padding: 17px;
+      display: flex;
+      flex-direction: column-reverse;
+      background-color: $black-color2;
+    }
+  }
+
+  &__watermark {
+    color: $grey-color;
+  }
+
+  &__number {
+    padding-right: 4px;
+    color: $black-color1;
+    @media screen and (max-width: 450px) {
+      margin-bottom: 8px;
+      padding: 0;
+      color: $green-color;
+    }
+  }
+
+  &__number:hover {
+    color: $green-color;
+    @media screen and (max-width: 450px) {
+      color: $white-color2;
+    }
+  }
+}
+
+.about-info {
+  margin-bottom: 62px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+
+  @media screen and (max-width: 780px) {
+    margin-bottom: 51px;
+  }
+
+  @media screen and (max-width: 450px) {
+    margin-top: 20px;
+    justify-content: start;
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+
+    @media screen and (max-width: 450px) {
+      margin-left: 16px;
+    }
+  }
+  &__first-string,
+  &__second-string {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 66px;
+
+    @media screen and (max-width: 450px) {
+      font-size: 32px;
+      line-height: 32px;
+    }
+  }
+
+  &__first-string {
+    margin-bottom: 4px;
+    color: $black-color1;
+    @media screen and (max-width: 450px) {
+      margin-bottom: 6px;
+    }
+  }
+
+  &__second-string {
+    margin-bottom: 27px;
+    color: $green-color;
+
+    @media screen and (max-width: 450px) {
+      margin-bottom: 14px;
+    }
+  }
+
+  &__third-string {
+    margin-bottom: 60px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 30px;
+    color: $grey-color;
+
+    @media screen and (max-width: 450px) {
+      margin-bottom: 34px;
+      font-size: 18px;
+      line-height: 21px;
+    }
+  }
+
+  &__third-string {
+    color: $grey-color;
+  }
+
+  &__button {
+    height: 48px;
+    width: 250px;
+    color: $white-color1;
+    background: linear-gradient(90deg, #0ec261 2.61%, #039f67 112.6%);
+    background-blend-mode: darken;
+    border-radius: 8px;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+
+    @media screen and (max-width: 450px) {
+      width: 100%;
+      border-radius: 0px;
+    }
+  }
+  &__button:hover,
+  &__button:focus {
+    filter: brightness(90%);
+    outline: 0;
+  }
+  &__button:active {
+    filter: brightness(80%);
+  }
+}

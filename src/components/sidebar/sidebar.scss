@@ -1,0 +1,226 @@
+@import "../../styles/color.scss";
+
+.sidebar {
+  width: 67px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: $black-color2;
+
+  @media screen and (max-width: 780px) {
+    width: 86px;
+  }
+
+  @media screen and (max-width: 450px) {
+    display: none;
+  }
+
+  &__show,
+  &__show-lg,
+  &__language {
+    margin: 31px 0px 17px 0px;
+    border: none;
+    background: $black-color2 !important;
+
+    @media screen and (max-width: 1040px) {
+      margin: 27px 2px 33px 0px;
+    }
+
+    @media screen and (max-width: 770px) {
+      margin: 29px 8px 39px 0px;
+    }
+
+    @media screen and (max-width: 450px) {
+      display: none;
+    }
+  }
+
+  &__show {
+    @media screen and (max-width: 770px) {
+      display: none;
+    }
+  }
+
+  &__show-lg {
+    display: none;
+    @media screen and (max-width: 770px) {
+      padding: 29px 0px 33px 0px;
+      display: block;
+    }
+  }
+
+  &__language {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    color: $green-color;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 8px;
+    height: 48px;
+    width: 48px;
+    outline: 0;
+  }
+
+  &__language:hover,
+  &__language:active {
+    height: 48px;
+    width: 48px;
+    color: $white-color1;
+    border: 1px solid #eeeeee;
+    border-radius: 50%;
+    outline: none;
+  }
+  &__language:active {
+    color: $green-color;
+  }
+  &__language:focus {
+    outline: none;
+  }
+}
+
+.drawer {
+  .ant-drawer-mask {
+    background-color: rgba(21, 27, 31, 0.81);
+  }
+
+  &__close {
+    position: absolute;
+    margin: 32px 16px;
+    padding: 0;
+    border: none;
+    background: $black-color3;
+
+    @media screen and (max-width: 1040px) {
+      margin: 28px 16px;
+    }
+
+    @media screen and (max-width: 450px) {
+      margin: 20px;
+    }
+  }
+
+  &__language {
+    display: none;
+    @media screen and (max-width: 450px) {
+      width: 50px;
+      margin-left: 14px;
+      margin-bottom: 12px;
+      height: 48px;
+      width: 48px;
+      display: block;
+      font-family: "Roboto", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 13px;
+      line-height: 15px;
+      color: $green-color;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border: none;
+      background: $black-color3;
+    }
+  }
+  &__language:hover,
+  &__language:active {
+    height: 48px;
+    width: 48px;
+    color: $white-color1;
+    border: 1px solid #eeeeee;
+    border-radius: 50%;
+    outline: none;
+  }
+  &__language:active {
+    color: $green-color;
+  }
+  &__language:focus {
+    outline: none;
+  }
+
+  &__block {
+    padding-left: 128px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    text-transform: uppercase;
+
+    @media screen and (max-width: 1040px) {
+      padding-left: 98px;
+    }
+    @media screen and (max-width: 450px) {
+      padding-top: 11px;
+      padding-left: 28px;
+      justify-content: start;
+    }
+  }
+
+  &__links {
+    padding-bottom: 40px;
+    padding-top: 56px;
+    display: flex;
+    flex-direction: column;
+    @media screen and (max-width: 780px) {
+      padding-bottom: 38px;
+      padding-top: 52px;
+    }
+  }
+
+  &__link {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-top: 16px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    color: $white-color1;
+
+    @media screen and (max-width: 780px) {
+      font-size: 28px;
+      line-height: 33px;
+    }
+
+    @media screen and (max-width: 450px) {
+      font-size: 22px;
+      line-height: 26px;
+    }
+  }
+
+  &__link:focus,
+  &__link:hover {
+    color: $green-color;
+  }
+
+  &__socials {
+    margin-right: 24px;
+  }
+
+  &__socials:hover {
+    filter: invert(0.5) sepia(1) saturate(4) hue-rotate(100deg);
+  }
+
+  .ant-drawer-content-wrapper {
+    width: 55% !important;
+
+    @media screen and (max-width: 1040px) {
+      width: 65% !important;
+    }
+
+    @media screen and (max-width: 1040px) {
+      width: 100% !important;
+    }
+
+    .ant-drawer-content {
+      background-color: $black-color3;
+
+      .ant-drawer-wrapper-body .ant-drawer-body {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+}
